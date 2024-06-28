@@ -1,0 +1,89 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+   list-style: auto;
+}
+
+/* Basic styles for header */
+header {
+    background-color: #3e83bb;
+    color: #b9e75c;
+    padding:0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    margin: 0%;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styles for hero section */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f4f4f4;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+}
+
+/* Styles for featured properties section */
+.featured-properties {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.property {
+    width: 300px;
+    margin: 20px;
+}
+
+.property img {
+    width: 100%;
+    height: auto;
+}
+
+.property h3 {
+    margin-top: 10px;
+}
+
+.property p {
+    margin-top: 5px;
+}
+
+.property span {
+    display: block;
+    margin-top: 5px;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #555;
+}

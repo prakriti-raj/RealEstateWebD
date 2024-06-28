@@ -1,0 +1,110 @@
+/* Resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #1abc9c;
+    color: #fff;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #1abc9c;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .featured-properties {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .property-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .property-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .property-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .property-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .property-card p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
